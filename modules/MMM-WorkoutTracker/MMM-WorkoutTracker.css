@@ -1,0 +1,71 @@
+.workout-fab {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #2196f3;
+  color: #fff;
+  font-size: 2em;
+  border: none;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 20%);
+  cursor: pointer;
+  z-index: 9999;
+  transition: background 0.2s;
+}
+
+.workout-fab:hover {
+  background: #1769aa;
+}
+
+.workout-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgb(0 0 0 / 50%);
+  z-index: 9998;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.workout-app-box {
+  background: #fff;
+  color: #222;
+  border-radius: 16px;
+  padding: 32px 24px 24px;
+  min-width: 300px;
+  min-height: 200px;
+  box-shadow: 0 8px 32px rgb(0 0 0 / 30%);
+  position: relative;
+  text-align: center;
+}
+
+.workout-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 2em;
+  color: #888;
+  cursor: pointer;
+}
+
+.workout-close:hover {
+  color: #f44336;
+}
+
+.workout-start-btn {
+  margin-top: 32px;
+  padding: 16px 32px;
+  font-size: 1.2em;
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.workout-start-btn:hover {
+  background: #357a38;
+}

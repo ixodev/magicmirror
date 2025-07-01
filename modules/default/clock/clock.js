@@ -38,6 +38,7 @@ Module.register("clock", {
 	getStyles () {
 		return ["clock_styles.css"];
 	},
+
 	// Define start sequence.
 	start () {
 		Log.info(`Starting module: ${this.name}`);
