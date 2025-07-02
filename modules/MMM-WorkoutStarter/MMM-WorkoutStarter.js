@@ -16,6 +16,7 @@ Module.register("MMM-WorkoutStarter", {
         startButton.className = "workout-start-btn";
         startButton.onclick = (() => {
             // Send notification to MMM-WorkoutTracker and dismiss other displayed modules, don't need any payload
+            MM.getModules().enumerate(module => module.hide(2000));
         });
 
         mainContainer.appendChild(startButton);
