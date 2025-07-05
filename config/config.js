@@ -39,11 +39,10 @@ let config = {
 
 	modules: [
 		{
-			module: "MMM-WorkoutStarter",
-			position: "top_center",
-			config: {
-				text: "Hello World!!!"
-			}
+			module: "MMM-WorkoutTracker",
+			position: "top_left",
+			classes: "tracking_modules",
+			hiddenOnStartup: true
 		},
 		{
 			module: "alert",
@@ -106,7 +105,13 @@ let config = {
 				broadcastNewsFeeds: true,
 				broadcastNewsUpdates: true
 			}
+		},
+		{
+			module: "MMM-WorkoutStarter",
+			position: "top_center",
+			classes: "tracking_modules",
 		}
+
 
 	]
 };
